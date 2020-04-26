@@ -10,10 +10,7 @@ using System.Linq;
 
 namespace grapher
 {
-    // This class encapsulates the details of getting a token from MSAL and exposes it via the
-    // IAuthenticationProvider interface so that GraphServiceClient or AuthHandler can use it.
-    // A significantly enhanced version of this class will in the future be available from
-    // the GraphSDK team.  It will supports all the types of Client Application as defined by MSAL.
+
     public class MsalAuthenticationProvider : IAuthenticationProvider
     {
         private IConfidentialClientApplication _clientApplication;
